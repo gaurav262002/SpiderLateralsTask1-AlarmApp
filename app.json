@@ -4,11 +4,11 @@
     "slug": "Task1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/clock-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/clock-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "io.app.client"
     },
     "web": {
       "favicon": "./assets/favicon.png"
